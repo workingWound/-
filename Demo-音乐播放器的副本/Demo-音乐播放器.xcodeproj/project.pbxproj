@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		191F1BAD2249FB5200E10E15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 191F1BAC2249FB5200E10E15 /* AppDelegate.m */; };
+		191F1BB02249FB5200E10E15 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 191F1BAF2249FB5200E10E15 /* ViewController.m */; };
+		191F1BB32249FB5200E10E15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 191F1BB12249FB5200E10E15 /* Main.storyboard */; };
+		191F1BB52249FB5B00E10E15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 191F1BB42249FB5B00E10E15 /* Assets.xcassets */; };
+		191F1BB82249FB5B00E10E15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 191F1BB62249FB5B00E10E15 /* LaunchScreen.storyboard */; };
+		191F1BBB2249FB5B00E10E15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 191F1BBA2249FB5B00E10E15 /* main.m */; };
+		191F1BC4224A081E00E10E15 /* XibTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 191F1BC1224A081E00E10E15 /* XibTableViewCell.xib */; };
+		191F1BC5224A081E00E10E15 /* XibTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 191F1BC3224A081E00E10E15 /* XibTableViewCell.m */; };
+		191F1BC8224A0ABC00E10E15 /* AudioTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 191F1BC6224A0ABC00E10E15 /* AudioTool.m */; };
+		191F1BDD224A13CF00E10E15 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 191F1BCD224A13CF00E10E15 /* NSObject+MJKeyValue.m */; };
+		191F1BDE224A13CF00E10E15 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 191F1BCE224A13CF00E10E15 /* MJProperty.m */; };
+		191F1BDF224A13CF00E10E15 /* MJType.m in Sources */ = {isa = PBXBuildFile; fileRef = 191F1BD0224A13CF00E10E15 /* MJType.m */; };
+		191F1BE0224A13CF00E10E15 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 191F1BD1224A13CF00E10E15 /* NSObject+MJCoding.m */; };
+		191F1BE1224A13CF00E10E15 /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 191F1BD4224A13CF00E10E15 /* MJExtensionConst.m */; };
+		191F1BE2224A13CF00E10E15 /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 191F1BD5224A13CF00E10E15 /* NSObject+MJProperty.m */; };
+		191F1BE3224A13CF00E10E15 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 191F1BD6224A13CF00E10E15 /* NSString+MJExtension.m */; };
+		191F1BE4224A13CF00E10E15 /* NSString+XMGTimeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 191F1BDA224A13CF00E10E15 /* NSString+XMGTimeExtension.m */; };
+		191F1BE5224A13CF00E10E15 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 191F1BDC224A13CF00E10E15 /* MJFoundation.m */; };
+		191F1BEA224A13D800E10E15 /* MusicTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 191F1BE6224A13D700E10E15 /* MusicTool.m */; };
+		191F1BEB224A13D800E10E15 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 191F1BE9224A13D800E10E15 /* Model.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		191F1BA82249FB5200E10E15 /* Demo-音乐播放器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demo-音乐播放器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		191F1BAB2249FB5200E10E15 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		191F1BAC2249FB5200E10E15 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		191F1BAE2249FB5200E10E15 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		191F1BAF2249FB5200E10E15 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		191F1BB22249FB5200E10E15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		191F1BB42249FB5B00E10E15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		191F1BB72249FB5B00E10E15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		191F1BB92249FB5B00E10E15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		191F1BBA2249FB5B00E10E15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		191F1BC1224A081E00E10E15 /* XibTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XibTableViewCell.xib; sourceTree = "<group>"; };
+		191F1BC2224A081E00E10E15 /* XibTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XibTableViewCell.h; sourceTree = "<group>"; };
+		191F1BC3224A081E00E10E15 /* XibTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XibTableViewCell.m; sourceTree = "<group>"; };
+		191F1BC6224A0ABC00E10E15 /* AudioTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioTool.m; sourceTree = "<group>"; };
+		191F1BC7224A0ABC00E10E15 /* AudioTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioTool.h; sourceTree = "<group>"; };
+		191F1BCA224A13CF00E10E15 /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
+		191F1BCB224A13CF00E10E15 /* NSObject+MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		191F1BCC224A13CF00E10E15 /* MJExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
+		191F1BCD224A13CF00E10E15 /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		191F1BCE224A13CF00E10E15 /* MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJProperty.m; sourceTree = "<group>"; };
+		191F1BCF224A13CF00E10E15 /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
+		191F1BD0224A13CF00E10E15 /* MJType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJType.m; sourceTree = "<group>"; };
+		191F1BD1224A13CF00E10E15 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		191F1BD2224A13CF00E10E15 /* NSString+XMGTimeExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XMGTimeExtension.h"; sourceTree = "<group>"; };
+		191F1BD3224A13CF00E10E15 /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		191F1BD4224A13CF00E10E15 /* MJExtensionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConst.m; sourceTree = "<group>"; };
+		191F1BD5224A13CF00E10E15 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		191F1BD6224A13CF00E10E15 /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
+		191F1BD7224A13CF00E10E15 /* MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJProperty.h; sourceTree = "<group>"; };
+		191F1BD8224A13CF00E10E15 /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		191F1BD9224A13CF00E10E15 /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		191F1BDA224A13CF00E10E15 /* NSString+XMGTimeExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XMGTimeExtension.m"; sourceTree = "<group>"; };
+		191F1BDB224A13CF00E10E15 /* MJType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJType.h; sourceTree = "<group>"; };
+		191F1BDC224A13CF00E10E15 /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
+		191F1BE6224A13D700E10E15 /* MusicTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicTool.m; sourceTree = "<group>"; };
+		191F1BE7224A13D800E10E15 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		191F1BE8224A13D800E10E15 /* MusicTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicTool.h; sourceTree = "<group>"; };
+		191F1BE9224A13D800E10E15 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		191F1BA52249FB5200E10E15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		191F1B9F2249FB5100E10E15 = {
+			isa = PBXGroup;
+			children = (
+				191F1BAA2249FB5200E10E15 /* Demo-音乐播放器 */,
+				191F1BA92249FB5200E10E15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		191F1BA92249FB5200E10E15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				191F1BA82249FB5200E10E15 /* Demo-音乐播放器.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		191F1BAA2249FB5200E10E15 /* Demo-音乐播放器 */ = {
+			isa = PBXGroup;
+			children = (
+				191F1BAB2249FB5200E10E15 /* AppDelegate.h */,
+				191F1BAC2249FB5200E10E15 /* AppDelegate.m */,
+				191F1BAE2249FB5200E10E15 /* ViewController.h */,
+				191F1BAF2249FB5200E10E15 /* ViewController.m */,
+				191F1BC7224A0ABC00E10E15 /* AudioTool.h */,
+				191F1BC6224A0ABC00E10E15 /* AudioTool.m */,
+				191F1BE7224A13D800E10E15 /* Model.h */,
+				191F1BE9224A13D800E10E15 /* Model.m */,
+				191F1BE8224A13D800E10E15 /* MusicTool.h */,
+				191F1BE6224A13D700E10E15 /* MusicTool.m */,
+				191F1BC2224A081E00E10E15 /* XibTableViewCell.h */,
+				191F1BC3224A081E00E10E15 /* XibTableViewCell.m */,
+				191F1BC1224A081E00E10E15 /* XibTableViewCell.xib */,
+				191F1BB12249FB5200E10E15 /* Main.storyboard */,
+				191F1BC9224A13CF00E10E15 /* MJExtension */,
+				191F1BB42249FB5B00E10E15 /* Assets.xcassets */,
+				191F1BB62249FB5B00E10E15 /* LaunchScreen.storyboard */,
+				191F1BB92249FB5B00E10E15 /* Info.plist */,
+				191F1BBA2249FB5B00E10E15 /* main.m */,
+			);
+			path = "Demo-音乐播放器";
+			sourceTree = "<group>";
+		};
+		191F1BC9224A13CF00E10E15 /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				191F1BCA224A13CF00E10E15 /* NSString+MJExtension.h */,
+				191F1BCB224A13CF00E10E15 /* NSObject+MJProperty.h */,
+				191F1BCC224A13CF00E10E15 /* MJExtensionConst.h */,
+				191F1BCD224A13CF00E10E15 /* NSObject+MJKeyValue.m */,
+				191F1BCE224A13CF00E10E15 /* MJProperty.m */,
+				191F1BCF224A13CF00E10E15 /* MJFoundation.h */,
+				191F1BD0224A13CF00E10E15 /* MJType.m */,
+				191F1BD1224A13CF00E10E15 /* NSObject+MJCoding.m */,
+				191F1BD2224A13CF00E10E15 /* NSString+XMGTimeExtension.h */,
+				191F1BD3224A13CF00E10E15 /* MJExtension.h */,
+				191F1BD4224A13CF00E10E15 /* MJExtensionConst.m */,
+				191F1BD5224A13CF00E10E15 /* NSObject+MJProperty.m */,
+				191F1BD6224A13CF00E10E15 /* NSString+MJExtension.m */,
+				191F1BD7224A13CF00E10E15 /* MJProperty.h */,
+				191F1BD8224A13CF00E10E15 /* NSObject+MJKeyValue.h */,
+				191F1BD9224A13CF00E10E15 /* NSObject+MJCoding.h */,
+				191F1BDA224A13CF00E10E15 /* NSString+XMGTimeExtension.m */,
+				191F1BDB224A13CF00E10E15 /* MJType.h */,
+				191F1BDC224A13CF00E10E15 /* MJFoundation.m */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		191F1BA72249FB5200E10E15 /* Demo-音乐播放器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 191F1BBE2249FB5B00E10E15 /* Build configuration list for PBXNativeTarget "Demo-音乐播放器" */;
+			buildPhases = (
+				191F1BA42249FB5200E10E15 /* Sources */,
+				191F1BA52249FB5200E10E15 /* Frameworks */,
+				191F1BA62249FB5200E10E15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Demo-音乐播放器";
+			productName = "Demo-音乐播放器";
+			productReference = 191F1BA82249FB5200E10E15 /* Demo-音乐播放器.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		191F1BA02249FB5100E10E15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "移动云";
+				TargetAttributes = {
+					191F1BA72249FB5200E10E15 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 191F1BA32249FB5200E10E15 /* Build configuration list for PBXProject "Demo-音乐播放器" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 191F1B9F2249FB5100E10E15;
+			productRefGroup = 191F1BA92249FB5200E10E15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				191F1BA72249FB5200E10E15 /* Demo-音乐播放器 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		191F1BA62249FB5200E10E15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				191F1BB82249FB5B00E10E15 /* LaunchScreen.storyboard in Resources */,
+				191F1BB52249FB5B00E10E15 /* Assets.xcassets in Resources */,
+				191F1BB32249FB5200E10E15 /* Main.storyboard in Resources */,
+				191F1BC4224A081E00E10E15 /* XibTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		191F1BA42249FB5200E10E15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				191F1BB02249FB5200E10E15 /* ViewController.m in Sources */,
+				191F1BE5224A13CF00E10E15 /* MJFoundation.m in Sources */,
+				191F1BBB2249FB5B00E10E15 /* main.m in Sources */,
+				191F1BEB224A13D800E10E15 /* Model.m in Sources */,
+				191F1BE4224A13CF00E10E15 /* NSString+XMGTimeExtension.m in Sources */,
+				191F1BE2224A13CF00E10E15 /* NSObject+MJProperty.m in Sources */,
+				191F1BDE224A13CF00E10E15 /* MJProperty.m in Sources */,
+				191F1BAD2249FB5200E10E15 /* AppDelegate.m in Sources */,
+				191F1BDF224A13CF00E10E15 /* MJType.m in Sources */,
+				191F1BE0224A13CF00E10E15 /* NSObject+MJCoding.m in Sources */,
+				191F1BE1224A13CF00E10E15 /* MJExtensionConst.m in Sources */,
+				191F1BE3224A13CF00E10E15 /* NSString+MJExtension.m in Sources */,
+				191F1BEA224A13D800E10E15 /* MusicTool.m in Sources */,
+				191F1BC8224A0ABC00E10E15 /* AudioTool.m in Sources */,
+				191F1BDD224A13CF00E10E15 /* NSObject+MJKeyValue.m in Sources */,
+				191F1BC5224A081E00E10E15 /* XibTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		191F1BB12249FB5200E10E15 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				191F1BB22249FB5200E10E15 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		191F1BB62249FB5B00E10E15 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				191F1BB72249FB5B00E10E15 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		191F1BBC2249FB5B00E10E15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		191F1BBD2249FB5B00E10E15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		191F1BBF2249FB5B00E10E15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LL452ZL4J3;
+				INFOPLIST_FILE = "Demo-音乐播放器/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "eooker.com.Demo------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		191F1BC02249FB5B00E10E15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LL452ZL4J3;
+				INFOPLIST_FILE = "Demo-音乐播放器/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "eooker.com.Demo------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		191F1BA32249FB5200E10E15 /* Build configuration list for PBXProject "Demo-音乐播放器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				191F1BBC2249FB5B00E10E15 /* Debug */,
+				191F1BBD2249FB5B00E10E15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		191F1BBE2249FB5B00E10E15 /* Build configuration list for PBXNativeTarget "Demo-音乐播放器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				191F1BBF2249FB5B00E10E15 /* Debug */,
+				191F1BC02249FB5B00E10E15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 191F1BA02249FB5100E10E15 /* Project object */;
+}
